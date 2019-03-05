@@ -42,7 +42,9 @@ logging:
 ledger:
     baseDir: ./data_unittest/okchain/
     txblockchain:
-        genesisConf: ./okchain/go-okchain/core/txblockchain/data/genesis.json
+        #genesisConf: ./okchain/go-okchain/core/txblockchain/data/genesis.json
+        #./okchain/core/blockchain/txblockchain/data/genesis.json
+        genesisConf: /Users/junsong/workspace/golang/src/github.com/ok-chain/okchain/core/blockchain/txblockchain/data/genesis.json
     state:
 
 sharding:
